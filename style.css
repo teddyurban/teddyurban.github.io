@@ -23,11 +23,25 @@ body {
 }
 
 #paragraph {
-    text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    text-align: justify;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-indent: 20px;
 }
 
-#LW1 {
-    margin ;
+#blurb {
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+p {
+    font-size: 20px;
+    letter-spacing: normal;
+
+}
+
+h3 {
+    font-size: 40px;
+    letter-spacing: -1px;
 }
