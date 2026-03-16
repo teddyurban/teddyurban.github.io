@@ -14,10 +14,20 @@ body {
   display: block;
   color: #000000;
   text-align: center;
-  padding: 14px;
+  padding: 10px;
   text-decoration: none;
 }
 
 .content {
   padding: 16px;
+}
+
+#paragraph {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#LW1 {
+    margin ;
 }
