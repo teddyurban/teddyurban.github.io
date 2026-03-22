@@ -11,10 +11,11 @@ body {
 
 #navbar a {
   float: left;
-  display: block;
+  display: flex;
   color: #000000;
+  justify-content: center;
   padding: 10px;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .content {
