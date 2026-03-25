@@ -109,3 +109,10 @@ h4 {
     margin-left: auto;
     margin-right: auto;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: aliceblue;
+    padding: 10px;
+}
