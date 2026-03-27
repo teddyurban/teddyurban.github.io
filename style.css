@@ -47,6 +47,11 @@ ul li a{
     margin-right: 300px;
 }
 
+#blurb a{
+    color: black;
+    text-decoration: underline;
+}
+
 #footer {
     text-align: center;
     margin-left: 500px;
