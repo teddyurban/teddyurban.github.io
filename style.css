@@ -162,7 +162,7 @@ h4 {
 .cell {
     width: 40px;
     height: 40px;
-    background-color: white;
+    background-color: black;
     border: 1p solid black;
 }
 
@@ -178,6 +178,6 @@ input{
     z-index: 1;
 }
 
-.inactive{
+.cellinactive{
     background-color: black;
 }
