@@ -178,6 +178,6 @@ input{
     z-index: 1;
 }
 
-.cellinactive{
+.inactive{
     background-color: black;
 }
