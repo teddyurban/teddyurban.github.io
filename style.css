@@ -258,9 +258,9 @@ h4 {
 }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
@@ -272,8 +272,8 @@ h4 {
 
 .container div{
     background-color: black;
-    border: 1px solid black;
-    padding: 0px;
+    border: 5px solid black;
+    padding: 1px;
     font-size: 30px;
     text-align: center;
 }
@@ -289,7 +289,7 @@ h4 {
     width: 40px;
     height: 40px;
     background-color: black;
-    border: 1p solid black;
+    border: 1px solid black;
 }
 
 input{
@@ -297,10 +297,10 @@ input{
     position: relative;
     font-size: 24px;
     text-align: center;
-    height: 35px;
-    width: 35px;
+    height: 32px;
+    width: 32px;
     background-color: white;
-    border: none;
+    border: 0 px;
     z-index: 1;
 }
 
@@ -312,8 +312,8 @@ input{
     position: relative;
     font-weight: 300;
     color: #000;
-    bottom: 55px;
+    bottom: 40px;
     font-size: small;
-    left: -15px;
+    left: 2px;
     z-index: 10;
 }
