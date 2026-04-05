@@ -103,11 +103,18 @@
             <b>Hints</b>
         </p>
         <p id="hints">
-            1. ______ Gillespie, Primal Scream singer <br>
-            2. A concluding musical passage <br>
-            3. ____ Fisher, hauntology theorist <br>
-            4. Abbr., singer of "Maps" <br>
-            5. Alma mater of Interpol <br>
+            1. ______ Gillespie, Primal Scream singer 
+            <span class="answer" style="display:none;"> <i><b>Bobby</b></i></span><br>
+            2. A concluding musical passage 
+            <span class="answer" style="display:none;"> <i><b>Coda</b></i></span><br>
+            3. ____ Fisher, hauntology theorist 
+            <span class="answer" style="display:none;"> <i><b>Mark</b></i></span><br>
+            4. Abbr., singer of "Maps" 
+            <span class="answer" style="display:none;"> <i><b>KO</b></i></span><br>
+            5. Alma mater of Interpol 
+            <span class="answer" style="display:none;"> <i><b>NYU</b></i></span><br><br>
+            <button onclick="revealAnswers()">Reveal Answers</button>
+
         </p>
 
         <footer>
@@ -117,7 +124,14 @@
       </footer>
       
 
-  
+    <script>
+        function revealAnswers() {
+            const answers = document.querySelectorAll('.answer');
+            answers.forEach(ans => {
+                ans.style.display = 'inline';
+            });
+         }
+    </script>
   </body>
 
 </html>
