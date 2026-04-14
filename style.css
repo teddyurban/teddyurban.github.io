@@ -358,10 +358,19 @@ input{
 
     ul li a{
         display: block;
-        padding: 14px 50px; 
+        padding: 14px 20px; 
         text-decoration: underline;
         color: black;
         font-size: 20px;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+         padding: 0;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
     }
 
 }
