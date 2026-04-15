@@ -155,7 +155,6 @@ ul li a{
     text-align: justify;
     margin-left: 150px;
     margin-right: 150px;
-    text-indent: 20px;
     letter-spacing: -0.5px;
     font-size: 25px;
 }
@@ -338,7 +337,6 @@ input{
         text-align: justify;
         margin-left: 15px;
         margin-right: 15px;
-        text-indent: 20px;
         letter-spacing: -0.5px;
         font-size: 22px;
     }
