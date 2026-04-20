@@ -375,4 +375,68 @@ input{
         width: 80%;
         height: auto;
     }
+
+    .container {
+        display: inline-grid;
+        grid-template-columns: repeat(5, 40px);
+        background-color: black;
+        padding: 10px;
+    }
+
+    .container div{
+        background-color: black;
+        border: 5px solid black;
+        padding: 1px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+
+    .row{
+        display: grid;
+        grid-template-rows: repeat(5, 40px);
+    }
+
+
+    .cell {
+        width: 40px;
+        height: 40px;
+        background-color: black;
+        border: 1px solid black;
+    }
+
+
+    input{
+        display: block;
+        position: relative;
+        font-size: 24px;
+        text-align: center;
+        height: 32px;
+        width: 32px;
+        background-color: white;
+        border: 1px solid black;
+        z-index: 1;
+    }
+
+    .inactive{
+        color: transparent;
+    }
+
+    .number {
+        position: relative;
+        font-weight: 300;
+        color: #000;
+        bottom: 40px;
+        font-size: small;
+        left: 2px;
+        z-index: 10;
+    }
+
+    #hints {
+        text-align: center;
+        margin-left: 150px;
+        margin-right: 150px;
+        letter-spacing: -0.5px;
+        font-size: 25px;
+    }
 }
