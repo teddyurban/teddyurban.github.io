@@ -283,6 +283,21 @@ h4 {
     text-align: center;
 }
 
+.container2 {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 200px);
+    background-color: black;
+    padding: 0px;
+}
+
+.container2 div{
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
 
 .row{
     display: grid;
