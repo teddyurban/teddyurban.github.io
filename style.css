@@ -354,6 +354,13 @@ input{
     margin-right: 15px;
 }
 
+#newsmid2 {
+    justify-content: space-evenly;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 12px;
+}
+
 #blurb a{
     color: black;
     text-decoration: underline;
