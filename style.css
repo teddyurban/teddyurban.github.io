@@ -159,6 +159,15 @@ ul li a{
     font-size: 25px;
 }
 
+#paragraph2 {
+    text-align: justify;
+    margin-left: 150px;
+    margin-right: 150px;
+    letter-spacing: -0.5px;
+    font-size: 25px;
+    text-indent: 35px;
+}
+
 #parchive {
     text-align: left;
     margin-left: 50px;
