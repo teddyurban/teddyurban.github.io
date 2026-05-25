@@ -510,7 +510,7 @@ input{
 
     .container2 {
         display: grid;
-        grid-template-columns: 20% 60% 20%;
+        grid-template-columns: 100%;
         background-color: black;
         padding: 0px;
         align-content: center;
@@ -519,7 +519,7 @@ input{
     .container2 div{
         background-color: white;
         border: 0px solid black;
-        padding: 2px;
+        padding: 1px;
         font-size: 12px;
         text-align: center;
         }
@@ -544,6 +544,6 @@ input{
         justify-content: space-evenly;
         margin-left: 5px;
         margin-right: 5px;
-        font-size: 10px;
+        font-size: 12px;
     }
 }
