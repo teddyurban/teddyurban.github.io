@@ -304,16 +304,15 @@ h4 a:active {
 }
 
 .container2 {
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
+    display: flex;
+    grid-template-columns: 60% 40%;
     background-color: black;
     padding: 0px;
-    align-content: center;
 }
 
 .container2 div{
     background-color: white;
-    border: 0px solid black;
+    border: 5px solid black;
     padding: 10px;
     font-size: 30px;
     text-align: center;
