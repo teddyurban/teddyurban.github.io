@@ -305,7 +305,6 @@ h4 a:active {
 
 .container2 {
     display: flex;
-    grid-template-columns: 60% 40%;
     background-color: black;
     padding: 0px;
 }
@@ -544,5 +543,19 @@ input{
         margin-left: 5px;
         margin-right: 5px;
         font-size: 12px;
+    }
+
+    #essay {
+        #essay {
+        text-align: justify;
+        margin-left: 10px;
+        margin-right: 10px;
+        letter-spacing: -0.5px;
+        font-size: 25px;
+        text-indent: 5px;
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: 130%;
+}
     }
 }
