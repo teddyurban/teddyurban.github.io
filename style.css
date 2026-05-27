@@ -546,7 +546,6 @@ input{
     }
 
     #essay {
-        #essay {
         text-align: justify;
         margin-left: 10px;
         margin-right: 10px;
@@ -556,6 +555,5 @@ input{
         margin-top: 0;
         margin-bottom: 0;
         line-height: 130%;
-}
+        }
     }
-}
