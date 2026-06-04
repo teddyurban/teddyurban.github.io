@@ -183,6 +183,7 @@ ul li a{
     text-align: center;
     margin-left: 300px;
     margin-right: 300px;
+    text-align: justify;
 }
 
 #blurb a{
@@ -194,6 +195,25 @@ ul li a{
 #blurb a:visited,
 #blurb a:hover,
 #blurb a:active {
+    text-decoration: underline;
+    color: black;
+}
+
+#blurbtitle {
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#blurbtitle a{
+    color: black;
+    text-decoration: underline;
+}
+
+#blurbtitle a:link,
+#blurbtitle a:visited,
+#blurbtitle a:hover,
+#blurbtitle a:active {
     text-decoration: underline;
     color: black;
 }
@@ -314,7 +334,7 @@ h4 a:active {
 
 .flex-container div{
     background-color: white;
-    border: 5px solid black;
+    border: 0px solid black;
     padding: 0px;
     font-size: 30px;
     text-align: center;
