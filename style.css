@@ -443,6 +443,14 @@ input{
         margin-right: 20px;
     }
 
+    #blurbtitle {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+
+
+
     ul li a{
         display: block;
         padding: 10px 10px; 
