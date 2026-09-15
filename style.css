@@ -451,6 +451,11 @@ input{
         font-size: 15px;
     }
 
+    #birdwatch {
+    color: #ffffff;
+    }
+
+
     #parchive {
         text-align: left;
         margin-left: 5px;
