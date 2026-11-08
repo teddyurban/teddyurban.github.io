@@ -321,6 +321,13 @@ h4 a:active {
     align-items: center;
 }
 
+.centertable {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
 .centerpic {
     display: block;
     margin-left: auto;
